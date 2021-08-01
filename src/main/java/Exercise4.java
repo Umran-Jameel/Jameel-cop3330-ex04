@@ -17,8 +17,20 @@ public class Exercise4 {
         System.out.print("Enter an adverb: ");
         String adverb = input.nextLine();
 
-        String str = String.format("Do you %s your %s %s %s? That's hilarious!", verb, adjective, noun, adverb);
-        System.out.println(str);
+        // more inputs to expand the story
+        System.out.print("Enter another noun: ");
+        String noun2 = input.nextLine();
 
+        System.out.print("Enter another verb: ");
+        String verb2 = input.nextLine();
+
+        System.out.print("Enter another adjective: ");
+        String adjective2 = input.nextLine();
+
+        System.out.print("Enter another adverb: ");
+        String adverb2 = input.nextLine();
+
+        String str = String.format("Do you %s your %s %s %s? And you also %s you %s %s %s? That's hilarious!", verb, adjective, noun, adverb, verb2, adjective2, noun2, adverb2);
+        System.out.println(str);
     }
 }
